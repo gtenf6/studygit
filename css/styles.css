@@ -30,6 +30,24 @@ header li > a {
 color: inherit;
   }
 
+section {
+  text-align: center;
+}
+
+section h1 {
+  font-weight: normal;
+ margin-bottom: 8px;
+}
+
+section p {
+  margin-top: 0;
+  font-size: 14px;
+}
+.icon {
+  /* border-radius: 30px; */
+  border-radius: 50%;
+}
+
 header li > a:hover {
     color: royalblue;
   }
