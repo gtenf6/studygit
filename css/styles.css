@@ -25,14 +25,16 @@ padding: 4px 8px;
 font-size: 12px;
   }
 
-header li > a {
-    tent-decoration: none;
-color: inherit;
+header li > a:hover{
+  color: royalblue;
+  }
+
+.current {
+  border-bottom: 4px solid royalblue;
   }
 
 section {
   text-align: center;
-}
 
 section h1 {
   font-weight: normal;
@@ -93,6 +95,15 @@ footer p {
   text-align: right;
 }
 
+
+.about {
+  width: 400px;
+  margin: 0 auto 60px;
+}
+
+.about p {
+  text-align: left;
+}
   section {
     text-align: center;
   }
